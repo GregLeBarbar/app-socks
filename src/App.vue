@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+const product = 'Socks'
+const description = 'A warm fuzzy pair of socks.'
+</script>
 
 <template>
-  <h1>Le produit doit être affiché ICI</h1>
+  <h1>{{ product }}</h1>
+  <p>{{ description }}</p>
 </template>
 
 <style scoped></style>
